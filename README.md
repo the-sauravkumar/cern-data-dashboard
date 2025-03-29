@@ -1,10 +1,10 @@
-### **🚀 CERN Data Explorer**  
+# **🚀 CERN Data Explorer**  
 **Real-time CERN Open Data Visualization Dashboard using FastAPI, PostgreSQL, Celery, Redis, and React.js**  
 
 ---
 
-## **📌 Overview**  
-**CERN Data Explorer** is an API wrapper and web dashboard for exploring and visualizing CERN's open data. It fetches data from the **CERN Open Data API**, stores it in a PostgreSQL database, and presents it in an interactive dashboard using **React.js** and **Recharts**. Background tasks are handled via **Celery** with **Redis** as a message broker.  
+
+It is an API wrapper and web dashboard for exploring and visualizing CERN's open data. It fetches data from the **CERN Open Data API**, stores it in a PostgreSQL database, and presents it in an interactive dashboard using **React.js** and **Recharts**. Background tasks are handled via **Celery** with **Redis** as a message broker.  
 
 ✅ **Tech Stack:**  
 - **Backend:** FastAPI, PostgreSQL, SQLAlchemy, Celery, Redis  
