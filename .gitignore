@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+venv/
+env/
+instance/
+*.egg-info/
+
+# FastAPI & Dependencies
+/.vscode/
+*.db
+/.mypy_cache/
+/.pylint.d/
+/pyvenv.cfg
+/.pytest_cache/
+*.pid
+*.lock
+
+# Node.js (React Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.env.local
+
+# Logs & Temp Files
+logs/
+*.log
+debug.log
+.DS_Store
+*.swp
+*.swo
+
+# Docker
+docker-compose.override.yml
+docker-compose.prod.yml
+docker/data/
+docker/nginx/logs/
+docker/postgres/data/
+docker/redis/data/
+
+# IDEs & Editors
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build Output
+dist/
+build/
+.cache/
+coverage/
+public/*.js.map

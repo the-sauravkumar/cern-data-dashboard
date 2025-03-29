@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+sqlalchemy
+psycopg2-binary
+pydantic
+elasticsearch
+celery
+redis
+python-dotenv
+pandas
